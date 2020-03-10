@@ -1,0 +1,8 @@
+- name: HM test
+  hosts: localhost
+  user: root
+  connection: local
+  tasks:
+    - debug:
+        msg: "{{ what_tty }}"
+
